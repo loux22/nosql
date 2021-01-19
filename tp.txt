@@ -1,0 +1,59 @@
+use metflix
+
+show dbs
+
+db.movies
+
+show collection
+
+db.movies.insertOne({"title": "Rocky", "year": 1976})
+db.movies.insertOne({"title": "Rocky", "year": 1976}, "_id": "tt0075148"})
+db.movies.insertOne({"title": "Rocky", "year": 1976}, "_id": "tt0075149"})
+db.movies.insertOne({"title": "Rocky", "year": 1976})
+
+db.users
+
+show collection
+
+db.users.insertOne({"firstname": "Louis", "lastname": "Ardilly})
+
+db.movies.insertMany([{
+        "title": "Rocky", 
+        "year": 1976,
+        "_id": "tt0075148"
+    },
+    {
+        "title": "Jaws", 
+        "year": 1975,
+        "imdb": "tt0073195"
+    },
+    {
+        "title": "Mad Max 2 : The road Warrior", 
+        "year": 1981,
+        "imdb": "tt0082694"
+    },
+    {
+        "title": "Raiders of the Lost Ark", 
+        "year": 1981,
+        "imdb": "tt0082971"
+    }
+ ])
+
+db.movies.find().pretty()
+
+db.movies.findOne()
+
+db.movies.find({"title":"Jaws"}).pretty()
+
+
+
+use movies_artists
+ 
+mongoimport -d movies_artists -c movies --drop --file "C:\Users\louis\Desktop\nosql\json\movies.json" --jsonArray
+mongoimport -d movies_artists -c artists --drop --file "C:\Users\louis\Desktop\nosql\json\artists.json" --jsonArray
+
+mongoimport -d movies_artists -c movies --mode insert --file "C:\Users\louis\Desktop\nosql\json\movies_suite.json" --jsonArray
+mongoimport -d movies_artists -c artists --mode insert --file "C:\Users\louis\Desktop\nosql\json\artists_suite.json" --jsonArray
+
+db.artists.find().pretty()
+db.movies.find().pretty()

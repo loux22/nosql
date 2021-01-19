@@ -1,0 +1,76 @@
+[
+{
+"_id": "movie:90",
+"title": "The Dark Knight Rises",
+"year": 2012,
+"genre": "Science-fiction",
+"summary": "Il y a huit ans, Batman a disparu dans la nuit : lui qui était un héros est alors devenu un fugitif. S'accusant de la mort du procureur-adjoint Harvey Dent, le Chevalier Noir a tout sacrifié au last_name de ce que le commissaire Gordon et lui-même considéraient être une noble cause. Et leurs actions conjointes se sont avérées efficaces pour un temps puisque la criminalité a été éradiquée à Gotham City grâce à l'arsenal de lois répressif initié par Dent.Mais c'est un chat – aux intentions obscures – aussi rusé que voleur qui va tout bouleverser. À moins que ce ne soit l'arrivée à Gotham de Bane, terroriste masqué, qui compte bien arracher Bruce à l'exil qu'il s'est imposé. Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le casque du Chevalier Noir, Batman n'est peut-être plus de taille à affronter Bane…",
+"country": "USA",
+"director": 	{
+	"_id": "artist:266"
+	},
+"actors": [
+	{
+	"_id": "artist:22",
+	"role": "Lucius Fox"
+	},
+	{
+	"_id": "artist:116",
+	"role": "Commissioner Gordon"
+	},
+	{
+	"_id": "artist:268",
+	"role": "Selina"
+	},
+	{
+	"_id": "artist:269",
+	"role": "Alfred"
+	},
+	{
+	"_id": "artist:271",
+	"role": "Miranda"
+	},
+	{
+	"_id": "artist:274",
+	"role": "Bruce Wayne / Batman"
+	}
+	]
+},
+{
+"_id": "movie:91",
+"title": "Un prophète",
+"year": 2009,
+"genre": "drama",
+"summary": "Condamné à six ans de prison, Malik El Djebena ne sait ni lire, ni écrire. A son arrivée en Centrale, seul au monde, il paraît plus jeune, plus fragile que les autres détenus. Il a 19 ans. D'emblée, il tombe sous la coupe d'un groupe de prisonniers corses qui fait régner sa loi dans la prison. Le jeune homme apprend vite. Au fil des \" missions \", il s'endurcit et gagne la confiance des Corses.Mais, très vite, Malik utilise toute son intelligence pour développer discrètement son propre réseau...",
+"country": "FR",
+"director": 	{
+	"_id": "artist:278"
+	},
+"actors": [
+	{
+	"_id": "artist:279",
+	"role": "Malik El Djebena "
+	},
+	{
+	"_id": "artist:280",
+	"role": "César Luciani"
+	}
+	]
+},
+{
+"_id": "movie:92",
+"title": "Nous trois ou rien",
+"year": 2015,
+"genre": "drama",
+"summary": "D’un petit village du sud de l’Iran aux cités parisiennes, Kheiron nous raconte le destin hors du commun de ses parents Hibat et Fereshteh, éternels optimistes, dans une comédie aux airs de conte universel qui évoque l’amour familial, le don de soi et surtout l’idéal d’un vivre-ensemble. ",
+"country": "FR",
+"director": 	{
+	"_id": "artist:281"
+	},
+"actors": [
+
+	]
+}
+
+
+]
